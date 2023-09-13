@@ -150,7 +150,7 @@ body
     background-color: black;
     align-items: center;
     width: 93%;
-    /* height: 80vh; */
+    height: 80vh;
     display: flex;
     margin-bottom: 80px;
 }
