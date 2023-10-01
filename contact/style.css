@@ -221,6 +221,13 @@ textarea:focus{
     font-family: Avenir;
 }
 
+.container textarea::placeholder
+{
+    background-color: transparent;
+    color: #bebab0;
+    font-family: Avenir;
+}
+
 textarea:focus{
     outline: none;
     border: 1px #d0cecc solid;
