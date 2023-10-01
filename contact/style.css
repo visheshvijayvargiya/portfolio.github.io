@@ -109,6 +109,14 @@ body
     cursor: auto;
 }
 
+textarea:focus{
+    outline: none;
+    border: 1px #d0cecc solid;
+    background-color: transparent;
+    color: #bebab0;
+    font-family: Avenir;
+}
+
 .form[type="email"]:hover
 {
     width: 380px;
@@ -191,4 +199,32 @@ body
     border: none;
     font-family: Avenir;
     transition: 400ms;
+}
+
+.container textarea
+{
+    resize: none;
+    width: 370px;
+    height: 120px;
+    padding: 10px;
+    border: 1px #7b7877 solid;
+    background-color: transparent;
+    color: #bebab0;
+    font-family: Avenir;
+}
+
+.container textarea:hover
+{
+    border: 1px #d0cecc solid;
+    background-color: transparent;
+    color: #bebab0;
+    font-family: Avenir;
+}
+
+textarea:focus{
+    outline: none;
+    border: 1px #d0cecc solid;
+    background-color: transparent;
+    color: #bebab0;
+    font-family: Avenir;
 }
