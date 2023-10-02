@@ -49,6 +49,11 @@ body
     color: white;
 }
 
+.nav1:hover
+{
+    color: #ff403f;
+}
+
 .socials
 {
     text-decoration: none;
