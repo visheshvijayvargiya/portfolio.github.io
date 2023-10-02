@@ -44,6 +44,11 @@ body
     color: white;
 }
 
+.nav1:hover
+{
+    color: #ff403f;
+}
+
 .socials
 {
     text-decoration: none;
@@ -164,6 +169,15 @@ textarea:focus{
     color: #d0cecc;
 }
 
+.form:focus
+{
+    outline: none;
+    background-color: transparent;
+    border: 1px #d0cecc solid;
+    color: #bebab0;
+    font-family: Avenir;
+}
+
 /* .container2
 {
     width: 100%;
@@ -228,7 +242,8 @@ textarea:focus{
     font-family: Avenir;
 }
 
-textarea:focus{
+textarea:focus
+{
     outline: none;
     border: 1px #d0cecc solid;
     background-color: transparent;
