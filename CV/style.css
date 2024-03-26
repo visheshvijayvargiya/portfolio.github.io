@@ -58,3 +58,171 @@ body
     color: white;
     gap: 20px;
 }
+
+.text
+{
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#name
+{
+    margin-top: 40px;
+}
+
+.details
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.CV
+{
+    font-family: Impact;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.portfolio
+{
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio:hover
+{
+    color: #ff403f;
+}
+
+.linkedin
+{
+    text-decoration: none;
+    color: white;
+}
+
+.linkedin:hover
+{
+    color: #ff403f;
+}
+
+.personal_statement
+{
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.personal_statement_real
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.education
+{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.westminster
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.modules
+{
+    margin-left: 250px;
+    margin-right: 250px;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.modules2
+{
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.computing_skills
+{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.soft
+{
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.space
+{
+    margin-top: 200px;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #c5c2c0;
+    font-family: 'Ysabeau Office';
+    font-size: 11px;
+    background-color: #000000;
+}
+
+.download_button
+{
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    font-weight: 700;
+    border-style: none;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.download_button:hover
+{
+    color: white;
+    background-color: #ff403f;
+    transition: 400ms;
+
+}
