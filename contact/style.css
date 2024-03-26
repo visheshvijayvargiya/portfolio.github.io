@@ -62,6 +62,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .line
@@ -198,6 +199,7 @@ textarea:focus{
     border: none;
     font-family: Avenir;
     margin-top: 11px;
+    transition: 400ms;
 }
 
 #submitform[type="submit"]:hover
@@ -249,4 +251,16 @@ textarea:focus
     background-color: transparent;
     color: #bebab0;
     font-family: Avenir;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #c5c2c0;
+    font-family: 'Ysabeau Office';
+    font-size: 11px;
+    background-color: #000000;
 }
