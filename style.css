@@ -183,7 +183,8 @@ body
 {
     /* margin-top: 60px;
     margin-bottom: 60px; */
-    width: 61.4vh;
+    /* width: 61.4vh; */
+    width: 30rem;
     position: relative;
     top: 2.1px;
 }
@@ -213,4 +214,16 @@ body
     font-family: 'Avenir';
     text-align: justify;
     font-weight: 500;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #c5c2c0;
+    font-family: 'Ysabeau Office';
+    font-size: 11px;
+    background-color: #000000;
 }
